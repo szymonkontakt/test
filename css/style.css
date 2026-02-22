@@ -306,4 +306,25 @@ footer {
     .footer-content {
         flex-direction: column; /* Pionowo */
     }
+    /* 1. Ustaw logo i przycisk jeden pod drugim (lub obok, jeśli małe) */
+    .nav-container {
+        flex-direction: column; /* Pionowo */
+        gap: 15px; /* Odstęp */
+        padding: 10px 0;
+    }
+
+    /* 2. Zmniejsz Logo */
+    .nav-logo {
+        height: 60px; /* Mniejsze logo */
+        width: auto;
+    }
+
+    /* 3. Zmniejsz Przycisk */
+    .btn-contact {
+        font-size: 0.9rem; /* Mniejszy tekst */
+        padding: 8px 10px;
+        width: 100%; /* Rozciągnij na szerokość (wygodne dla kciuka) */
+        text-align: center;
+        max-width: 280px; /* Żeby nie był gigantem */
+    }
 }
